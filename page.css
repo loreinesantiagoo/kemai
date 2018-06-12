@@ -1,0 +1,13 @@
+.jumbotron{
+    background-color: aqua;
+    color: orange;
+    padding: 100px 25px;
+}
+
+.container-fluid{
+    padding: 60px 50px;
+}
+.bg-grey{
+    background-color: burlywood;
+
+}
