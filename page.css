@@ -8,14 +8,14 @@
 }
 
 .logo {
-    color: #f4511e;
+    color: rgb(62, 62, 206);
     font-size: 200px;
 }
 .logo-small {
-    color: #f4511e;
+    color: rgb(62, 62, 206);
     font-size: 50px;
 }
-body{
+.all-text{
     font-family: 'Libre Baskerville', serif;
     line-height: 1.8;
     color: #818181;
@@ -23,7 +23,7 @@ body{
 
 .jumbotron{
     background-color: aqua;
-    color: orange;
+    color: rgb(62, 62, 206);
     padding: 100px 25px;
     font-family: 'Libre Baskerville', serif;
 }
@@ -51,15 +51,15 @@ body{
 /*carousel style*/
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #f4511e;
+    color: rgb(62, 62, 206);
 }
 
 .carousel-indicators li {
-    border-color: #f4511e;
+    border-color: rgb(62, 62, 206);
 }
 
 .carousel-indicators li.active {
-    background-color: #f4511e;
+    background-color:rgb(62, 62, 206);
 }
 
 .item h4 {
@@ -77,24 +77,25 @@ body{
 /*panel style*/
 
 .panel {
-    border: 1px solid #d83504; 
+    border: 1px solid rgb(36, 36, 201); 
     border-radius:0;
-    transition: box-shadow 1s;
+    transition: box-shadow 0.5s;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .panel:hover {
-    box-shadow: 5px 0px 40px rgba(221, 13, 13, 0.2);
+    box-shadow: 5px 0px 40px rgba(50, 155, 224, 0.2);
 }
 
 .panel-footer .btn:hover {
     border: 1px solid #0475f7;
     background-color: #fff !important;
-    color: #f4511e;
+    color: rgb(62, 62, 206);
 }
 
 .panel-heading {
     color: #fff !important;
-    background-color: #e67452 !important;
+    background-color: rgb(62, 62, 206) !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -105,27 +106,30 @@ body{
 
 .panel-footer {
     background-color: #fff !important;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .panel-footer h3 {
     font-size: 32px;
+    
 }
 
 .panel-footer h4 {
     color: #aaa;
     font-size: 14px;
+    
 }
 
 .panel-footer .btn {
     margin: 15px 0;
-    background-color: #f4511e;
+    background-color: rgb(62, 62, 206);
     color: #fff;
 }
 
 /*navbar style*/
 .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: rgb(62, 62, 206);
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -136,7 +140,7 @@ body{
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: rgb(224, 80, 22) !important;
+    color: rgb(62, 62, 206)!important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -146,14 +150,14 @@ body{
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: #f4511e !important;
+    color: rgb(62, 62, 206) !important;
 }
 
 /*footer style*/
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #f4511e;
+    color: rgb(62, 62, 206);
 }
 
 h2 {
