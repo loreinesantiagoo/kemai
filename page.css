@@ -8,22 +8,22 @@
 }
 
 .logo {
-    color: rgb(62, 62, 206);
+    color: rgb(110, 167, 233);
     font-size: 200px;
 }
 .logo-small {
-    color: rgb(62, 62, 206);
+    color: rgb(110, 167, 233);
     font-size: 50px;
 }
 .all-text{
     font-family: 'Libre Baskerville', serif;
     line-height: 1.8;
-    color: #818181;
+    color: #303030;
 }
 
 .jumbotron{
-    background-color: aqua;
-    color: rgb(62, 62, 206);
+    background-color:none;
+    color: rgb(110, 167, 233);
     padding: 100px 25px;
     font-family: 'Libre Baskerville', serif;
 }
@@ -51,7 +51,7 @@
 /*carousel style*/
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: rgb(62, 62, 206);
+    color: rgb(110, 167, 233);
 }
 
 .carousel-indicators li {
@@ -74,62 +74,13 @@
     font-style: normal;
 }
 
-/*panel style*/
 
-.panel {
-    border: 1px solid rgb(36, 36, 201); 
-    border-radius:0;
-    transition: box-shadow 0.5s;
-    font-family: 'Libre Baskerville', serif;
-}
 
-.panel:hover {
-    box-shadow: 5px 0px 40px rgba(50, 155, 224, 0.2);
-}
-
-.panel-footer .btn:hover {
-    border: 1px solid #0475f7;
-    background-color: #fff !important;
-    color: rgb(62, 62, 206);
-}
-
-.panel-heading {
-    color: #fff !important;
-    background-color: rgb(62, 62, 206) !important;
-    padding: 25px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
-.panel-footer {
-    background-color: #fff !important;
-    font-family: 'Libre Baskerville', serif;
-}
-
-.panel-footer h3 {
-    font-size: 32px;
-    
-}
-
-.panel-footer h4 {
-    color: #aaa;
-    font-size: 14px;
-    
-}
-
-.panel-footer .btn {
-    margin: 15px 0;
-    background-color: rgb(62, 62, 206);
-    color: #fff;
-}
 
 /*navbar style*/
 .navbar {
     margin-bottom: 0;
-    background-color: rgb(62, 62, 206);
+    background-color:rgb(110, 167, 233);
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -140,7 +91,7 @@
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: rgb(62, 62, 206)!important;
+    color: rgb(100, 161, 231)!important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -157,7 +108,7 @@
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: rgb(62, 62, 206);
+    color: rgb(110, 167, 233);
 }
 
 h2 {
