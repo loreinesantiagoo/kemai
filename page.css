@@ -127,6 +127,11 @@ h4 {
     margin-bottom: 30px;
 }
 
+span {
+    font-stretch: expanded;
+    font-size: x-large;
+    color: rgb(110, 167, 233);
+}
 .slideanim {visibility:hidden;}
 .slide {
     /* The name of the animation */

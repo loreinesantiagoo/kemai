@@ -1,9 +1,9 @@
 function map() {
-    var center = new google.maps.LatLng(41.878114, -87.629798);
+    var center = new google.maps.LatLng(51.5, -0.12);
     
     var mapProp = {
         center: center,
-        zoom: 12,
+        zoom: 15,
         scrollwheel: false,
         draggable: false,
         mapTypeId: google.maps.MapTypeId.ROADMAP
